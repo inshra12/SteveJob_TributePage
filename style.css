@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    font-family:Arial, Helvetica, sans-serif
+}
+.header{
+    height: 80px;
+    width: 100%;
+   
+    text-align: center;
+    color: white;
+}
+
+.bg-img img{
+    max-width: 100%; 
+    height: 400px;
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+    margin-top: 5px;
+   margin-bottom: 10px;
+    /*background-color: #cccccc;  Used if the image is unavailable 
+    height: 600px; You must set a specified height 
+    background-position: center; Center the image 
+    background-repeat: no-repeat; Do not repeat the image 
+    background-size: cover; 
+    width: 100%;*/
+}
+.container{
+    height: 500px;
+    width: 100%;
+   
+}
+.content{
+    height: 600px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 45px;
+    color: white;
+  
+   
+}
+
+.side-img img{
+width: 25%;
+height: 350px;
+margin-top: 150px;
+margin-left: 5%;
+float: left;
+}
+footer{
+    background-color: rgb(33, 33, 33);
+    height: 60px;
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+    padding-top: 1px;
+    color: white;
+    
+}
